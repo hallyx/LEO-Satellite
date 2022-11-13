@@ -1,4 +1,6 @@
 #include "Eigen/Dense"
+#include <cmath>
+#include <iostream>
 using namespace Eigen;
 
 /**
@@ -12,4 +14,4 @@ using namespace Eigen;
  *                      * ext_torque = external torque i.e. gravity gradient or external torque
  * 
  */
-Vector3d attitude_controller(const Vector4d &bodyquat, const Vector3d &bodyw, Vector4d &refquat, Vector3d &refw , Vector3d &ext_torque);
+Vector3d attitude_controller(const Vector4d &q_B2R, const Vector3d &body_w, const Vector3d &body_w_ref , const Vector3d &body_wdot, const Vector3d &body_wdot_ref, const Vector3d &body_ext_torque);
