@@ -14,4 +14,6 @@ include_directories("lib/")
 set(EIGEN_DIR "lib/eigen-3.4.0")
 include_directories(${EIGEN_DIR})
 
-add_executable(LEO src/gnc/attitude_controller.cpp)
+add_executable(LEO src/gnc/attitude_controller.cpp
+    src/simulator/sim_runner.cpp
+)
