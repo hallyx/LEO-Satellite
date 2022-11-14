@@ -17,8 +17,11 @@ Calendar progress goals:
   [break until thanksgiving break]
   
   During thanksgiving break:
+    
     -setup orbit portion of sim for a simple circular LEO Orbit, no need to setup realistic perturbations just yet
+    
     -setup VUW attitude frame as reference frame
+    
     -work on making an in house r,v to keplerian elements conversion software in C++ to implement in this sim
   
 
