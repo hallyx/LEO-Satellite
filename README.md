@@ -5,11 +5,17 @@ Featuring Attitude Control, Orbit Control/station-keeping, and optimization for 
 
 (Currently In Development), (I expect to be finished by the middle of December 2022)
 Calendar progress goals:
+  
   -by Nov 15 fully setup attitude portion of sim (does not include testing)
+  
   -by Nov 17 have orbit controller/stationkeeping controller setup
+  
   -by December 1st be in tuning phase
+  
   -finish by Christmas by the absolute latest
+  
   [break until thanksgiving break]
+  
   During thanksgiving break:
     -setup orbit portion of sim for a simple circular LEO Orbit, no need to setup realistic perturbations just yet
     -setup VUW attitude frame as reference frame
